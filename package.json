@@ -1,0 +1,37 @@
+{
+	"name": "git-to-github-url",
+	"version": "0.0.0",
+	"description": "Get GitHub URL for a git repository",
+	"license": "MIT",
+	"repository": "vadimdemedes/git-to-github-url",
+	"author": {
+		"name": "Vadim Demedes",
+		"email": "vdemedes@gmail.com",
+		"url": "github.com/vadimdemedes"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"git",
+		"github"
+	],
+	"dependencies": {
+		"git-branch": "^1.0.0",
+		"git-remote-origin-url": "^2.0.0",
+		"github-url-from-git": "^1.5.0",
+		"pify": "^3.0.0"
+	},
+	"devDependencies": {
+		"ava": "^0.20.0",
+		"execa": "^0.8.0",
+		"tempdir": "^2.0.0",
+		"xo": "^0.18.2"
+	}
+}
