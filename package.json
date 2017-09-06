@@ -1,6 +1,6 @@
 {
 	"name": "git-to-github-url",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Get GitHub URL for a git repository",
 	"license": "MIT",
 	"repository": "vadimdemedes/git-to-github-url",
