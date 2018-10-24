@@ -15,8 +15,10 @@ $ npm install git-to-github-url
 ```js
 const gitToGithubUrl = require('git-to-github-url');
 
-const url = await gitToGithubUrl();
-//=> 'https://github.com/vadimdemedes/ink'
+(async () => {
+	console.log(await gitToGithubUrl());
+	//=> 'https://github.com/vadimdemedes/ink'
+})();
 ```
 
 
